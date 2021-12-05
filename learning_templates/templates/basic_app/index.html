@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+{% block body_block %}
+   <h1>Welcome to index</h1>
+   <h1>{{ text|cut:'world' }}</h1>
+   <h2>{{ number }}</h2>
+   <!-- Another way of injecting filter via python basic daty type method -->
+   {{ text|upper }}
+   {{ number|add:"99" }}
+{% endblock %}
+<!-- Haha that's do not work outside of template <tag> -->
+<!-- <block></block>not work<h1>It outside of the inheritance block</h1> -->
