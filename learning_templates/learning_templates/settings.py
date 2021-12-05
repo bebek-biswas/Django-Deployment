@@ -26,7 +26,7 @@ SECRET_KEY = 'hun18_^*ftn_g97a-eiffad!p0i63&_(+x9=5-th_t$u5@&_ph'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['bebek.pythonanywhere.com' 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['bebek.pythonanywhere.com' 'localhost:8000', '127.0.0.1:8000']
 
 
 # Application definition
